@@ -41,7 +41,7 @@ public class ByteCharset extends AbstractCharset {
 
     @Override
     public int getCodepoint(byte[] arr) {
-        return arr[0];
+        return Byte.toUnsignedInt(arr[0]);
     }
 
     @Override

@@ -27,6 +27,6 @@ public interface JEncodingCharsets {
 
     AbstractCharset JELLY = JellyCharset.INSTANCE;
 
-    AbstractCharset CLACK = new ByteCharset("codegolf.clack", new String[0], CharacterDictionary.fromString("αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$-0123456789.()[]{}⌊⌋⌈⌉|\"“”«»:;,=\n\\\t ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒȦḂĊḊĖḞĠḢİĿṀṄȮṖṘṠṪẆẊẎŻạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓȧḃċḋėḟġḣŀṁṅȯṗṙṡṫẇẋẏż!@#%^&*_+?~`️<>'₢€£￦￥¥₳฿￠₡¢₢₵₫￡Ł₥₦₱₯₤₣₲₭"), '?');
+    AbstractCharset CLACK = new ByteCharset("codegolf.clack", new String[0], CharacterDictionary.fromString("αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩabcdefghijklmnopqrstuvwxyz#ABCDEFGHIJKLMNOPQRSTUVWXYZ$-0123456789.()[]{}⌊⌋⌈⌉\"“”«»:;=\n\\\t ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒȦḂĊḊĖḞĠḢİĿṀṄȮṖṘṠṪẆẊẎŻạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓȧḃċḋėḟġḣŀṁṅȯṗṙṡṫẇẋẏż!@&*_+/%^?~`️<>'₢€£￦￥¥₳฿￠₡¢₢₵₫￡Ł|₥₦₱₯₤₣₲₭"), '?');
 
 }
